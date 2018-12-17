@@ -1,0 +1,234 @@
+﻿@charset "utf-8";
+a {text-decoration:none;}
+a:hover {text-decoration: none;	color: #F00;}
+a img{border:none;}
+@media screen and (-webkit-min-device-pixel-ratio:0) {a img{border:none;}}
+body {margin:0 auto;font-size:12px; background:#FFF;text-align:center;}/* #F8F9E9; */
+.clear{clear:both;}
+.bg {background: url(../images/bg.jpg) 50% 0px no-repeat #f7f7e7; height:1200px;}/* 页面整体的背景图片 */
+.main{padding-top:0px;margin-bottom:0;margin-right:auto;margin-left:auto; width:1000px; }/* 页面主体 */
+
+/*Logo*/
+.logoframe{float:left;height:80px;width:1000px;}/*Logo的外边框*/
+.logo{float:left;margin-top:10px;margin-bottom:10px;margin-left:30px;margin-right:10px;width:170;}/* Logo */
+.biaoyu{float:right;margin-top:10px;margin-left:0px;margin-right:50px;margin-bottom:2px;}/*宁缺勿滥细嚼慢咽*/
+
+/*搜索栏*/
+.searchframe{clear:both;float:left; width:1000px; margin:20px 0px 20px 0;}/*搜索的大外框*/
+.searchclass {font-size:12px; color:#6C7559;}/*搜索类型的选择（新闻/网页/贴吧）*/
+.shurudiv {float:left;width:466px;height:46px;line-height:46px;font-size:14px;text-align:left;background:url(../images/sbg1.png) no-repeat;border:none;padding-right:20px;padding-left:6px;margin-left:0px;}		
+.shuru{height:22px;width:450px;line-height:22px;font-size:14px;text-align:left;background-color:white;border:none;margin-top:10px;margin-left:10px;outline:none;}		
+.anniubaidu{background:url(../images/anniubaidu1.png) no-repeat;width:87px; height:45px;border:none;margin-left:5px;margin-right:5px; border:none;outline:0px;}
+.anniubaidu:hover{background:url(../images/anniubaidu2.png) no-repeat; cursor:url('http://www.pm265.com/images/kulou24.cur'),pointer; border:none;}
+.anniuguge{background:url(../images/anniuguge1.png) no-repeat;width:87px; height:45px;border:none;margin-left:5px;margin-right:5px;outline:0px;}
+.anniuguge:hover{background:url(../images/anniuguge2.png) no-repeat; cursor:pointer}
+.anniusougou{background:url(../images/anniusougou1.png) no-repeat;width:87px; height:45px;border:none;margin-left:5px;margin-right:5px;outline:0px;}
+.anniusougou:hover{background:url(../images/anniusougou2.png) no-repeat; cursor:pointer}
+.anniuhaosou{background:url(../images/anniu3601.png) no-repeat;width:87px; height:45px;border:none;margin-left:5px;margin-right:5px; outline:0px;}
+.anniuhaosou:hover{background:url(../images/anniu3602.png) no-repeat; cursor:pointer}
+
+/*大框架*/
+.left{float:left;width:800px;height:auto;border:none;background-color:none;margin:0 0 0 0;}/*大通栏的左边部分*/
+.right{float:right;width:200px;height:auto;border:none;background-color:none;margin:0;text-align:left;}/*大通栏的右边部分*/
+
+/*名站*/   
+    
+.webfamous {float:left;width:780px;height:auto;border:1px solid #E2E89D;margin-bottom:10px; padding:0px 0 10px 0px;  }/*IE 名站外边框 */
+@media screen and (-webkit-min-device-pixel-ratio:0) {.webfamous{float:left;width:750px;height:auto;border:1px solid #E2E89D;margin-bottom:10px;padding:15px 0 10px 30px;}} /* Chrome 名站外边框 */
+
+.webfamous ul{float:left;width:auto;vertical-align:top;list-style-type:none;list-style-image:none;padding:0px; margin:30px 0 0 30px;}
+@media screen and (-webkit-min-device-pixel-ratio:0) {.webfamous ul{float:left;width:auto;vertical-align:top;list-style-type:none;list-style-image:none;padding:0; margin:0; }}
+
+
+.webfamous li{float:left;width:80px;height:15px;text-align:left;margin:5px 10px 10px 0px;}/*background-color:green;*/
+@media screen and (-webkit-min-device-pixel-ratio:0) {.webfamous li{width:80px;margin:5px 10px 10px 0px; background:none;}}
+
+.webfamous li a:link,.webfamous li a:visited{font-size:14px;font-family:Arial, Helvetica, verdana,simsum;color:#414141;}
+.webfamous li a:hover{color: #F00;}
+.webfamous li img{ float:left;margin:0 3px -3px 0;}
+
+/*普通站外边框高度*/
+.webcommon{float:left;width:100%;border:0px solid #97DDFB; /*margin:0 0 20px 0;*/ padding:0 0 0 0;}/*普通站外边框，在此更改左边普通站的高度*/
+/*IE外边框高度*/
+.webcommon{height:auto;}
+/*Chrome外边框高度 */
+@media screen and (-webkit-min-device-pixel-ratio:0) {.webcommon{height:auto;}}
+/*firefox外边框高度*/
+@-moz-document url-prefix() {.webcommon{height:auto;}}
+
+
+
+.webtype {float:left;width:100px;margin:10px 10px 2px 0;padding:3px;color:#fff;font-size:12px;font-family:Arial, Helvetica, verdana,simsum;background-color:#88a526; text-align:center;}/* 普通站标题 */
+.weblist {float:left;width:665px;margin:0 0 0 0px;padding:0 0 0 15px;border:none;}/* background-color:#FFC*/
+
+.weblist ul {width:auto;vertical-align:top;list-style-type:none;list-style-image:none;padding:0px; margin:12px 0 0 0; }
+@media screen and (-webkit-min-device-pixel-ratio:0) {.weblist ul {width:auto;vertical-align:top;list-style-type:none;list-style-image:none;padding:0px; }}
+
+.weblist li {float:left;width:82px; text-align:left;margin:1px 13px 3px 0px;}/* background-color:#F99*/
+.weblist li a:link,.weblist li a:visited{font-size:14px;font-family:Arial, Helvetica, verdana,simsum;color:#414141; }
+.weblist li a:hover {color: #F00;}
+.webmore {float:right;width:35px;margin:10px 8px 2px 0;padding:3px; color:#000000; font-size:12px;}/*background-color:green;*/
+.webmore a:link,.webmore a:visited {color:#999;}
+.webmore a:hover{color:#F00;text-decoration:none;}
+
+/*PM265文萃*/
+.wencui{ width:74px; height:18px;background-color:#ff7d00; color:white;margin:-3px 0 0 0;padding:2px 2px 0px 3px;}
+#wencui a:link, #wencui a:visited{color:#FFF;}/*局部的特殊A标签样式，用#定义，Id引用*/
+#wencui a:hover{color:yellow;}
+.lineleft{float:left;width:700px;background:url(../images/aline.gif);height:1px;margin:15px 40px 5px 40px;}/*一条线*/
+
+/*标题一行*/.bg_green{float:left;width:780px;height:20px;background-color:#88a526;color:#fff;}
+/*标题*/.title{float:left;padding:3px 0px 3px 5px;}
+/*更多*/.more_white{float:right;padding-top:3px;padding-bottom:3px;padding-right:5px;}
+
+/**/
+
+/*资讯大外框*/.news {float:left;width:780px;height:350px;margin:20px 0 0 0;padding:0px; background-color:#fff;}
+
+/*纸书大外框*/.book  {float:left;width:780px;height:auto;margin-top:20px;padding:0px;}
+
+  /*纸书标题栏 Bg_green 见上*/
+    /*纸书标题   Title 见上  */  /*纸书更多 more_white 见上*/
+
+  /*纸书内容区域*/.books{float:left;margin:0px;padding:20px 0 0 0;width:780px;}
+    /*一本书的小外框*/.abook {float:left; width:180px; margin:5px 10px 10px 5px;background-color:#fff;padding:0px 0 0px 0; } 
+      /*封面*/.cover {margin:0px;width:150px;height:150px;background-color:#fff;}
+	  /*书名*/.bookname {font-size:12px;font-family:Arial, Helvetica, verdana,simsum;margin:5px 0 10px 0; text-align:center; line-height:18px; width:120px;height:35px; background-color:#fff;}
+	          .bookname a:link,.bookname a:visited{color:#333}
+			  .bookname a:hover {color:red;}
+	  /*网站*/.shops{float:left;width:95px; height:15px; text-align:right; margin:0px 0 5px 0; font-size:12px; color:#999999;font-family: "宋体";}
+	  /*价格*/.price{float:left;width:75px; height:15px; text-align:left;  margin:0px 0 5px 0; line-height:12px; padding:0 0 0 2px;font-size:12px;font-family: "微软雅黑";color:#ed4447;}/* IE 样式 */
+	          @media screen and (-webkit-min-device-pixel-ratio:0) {.price{background-color:#FFF;float:left;width:80px; height:15px; line-height:15px;text-align:left;  margin:0px 0 5px 0; padding:0 0 0 2px;font-size:12px; font-family: "微软雅黑", Arial ;color:#ed4447;}} /* Chrome 字体 */
+	  /*按钮外框*/.bookannius{float:left;margin:5px 0 10px 0px;padding: 0 0 0 29px; width:150px;}
+	  /*单个按钮*/.bookanniu{float:left;margin:0 1px 0 0;}
+	          .bookanniu img{border:none;}
+	  /*介绍*/.mycomment {float:left;margin:0px 0px 10px 0;background-color:#FFF;padding:0px; line-height:20px; color:#88a526;text-align:left;text-indent:2em;height:170px;width:180px; }
+             .mycomment p{margin:0;}
+
+/*纸书·引用当当*/.dangdang {margin:0px;background-color:#FFF;padding:0px 0 0px 0; } 
+
+
+
+
+.booktable{float:left;width:780px;margin-left:0px;margin-right:0px;margin-top:5px; padding-right:0px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*公众号*/
+.gongzhonghao{float:left;width:780px;height:150px;margin:0px 0 20px 0;}
+.gzhtable{float:left;width:780px;margin:5px 0 0 0;}
+.gzh-type {float:left;width:40px;margin:10px 10px 2px 0;padding:3px;color:#fff;font-size:12px;background-color:#88a526; text-align:center;}/* 公众号类型 */
+.a-gzh {float:right;width:740px;margin:0;padding:0 0 0 0px;border:none;}
+.a-gzh ul { width:auto;vertical-align:top;list-style-type:none;list-style-image:none;padding:0px; }
+.a-gzh li {float:left;width:80px; text-align:left;margin:1px 7px 3px 0px;}
+.a-gzh li a:link,.a-gzh li a:visited{font-size:12px;font-family:Arial, Helvetica, verdana,simsum;color:#414141; }
+.a-gzh li a:hover {color: #F00;}
+
+/*友情链接*/
+.linelink{height:1px;width:1000px; margin:0 0 10px 0; background-color:#C1C1C1;}/*一条间隔线*/
+.partner{float:left;clear:both;width:1000px;margin:0px 0px 0px 0px;padding:0;text-align:left;}
+.partnertype{float:left;font-size:12px;width:50px;color:#88a526;margin:10px 10px 0px 10px;}/*友情链接标题*/
+.partnerlist{float:left;font-size:12px;width:900px; margin-top:10px;margin-bottom:0px;font-family: Arial, Helvetica, verdana,simsum;}/*友情链接内容*/
+.partnerlist ul{width:1000px;vertical-align:top;list-style-type:none;list-style-image:none;margin:0;padding:0px;}
+.partnerlist li{float:left;margin:0 10px 0 0;padding-bottom:8px;width:80px;text-align:left; }
+.partnerlist li a:link,.partnerlist li a:visited{color: #5E5E5E;}
+.partnerlist li a:hover {color: #F00;}
+
+/*更多*/
+.more_white a:link,.more_white a:visited {color:#FFF;}
+.more_white a:hover{color:#FF0;text-decoration:underline;}
+
+
+
+/*我的头像和微博*/
+.zhanzhang{float:left;width:200px;margin:0px 0 0 0px;}
+.touxiang{float:left;margin-left:20px;margin-top:5px;}
+.weibo{float:left;font-size:14px;margin:7px 5px 0 10px;text-align:left; line-height:25px;}
+.weibo a:link,.weibo a:visited{font-size:12px;font-family: Arial, Helvetica, verdana,simsum;color: #8A8A8A;}
+.weibo a:hover {font-size:12px;color: #F00;}
+
+/*QQ群*/
+.qqqun{float:left;}
+.aqun {float:left;width:170px;height:22px;margin:2px 0px 1px 0px;font-size:12px;color: #88a526;text-align:left;font-family: Arial, Helvetica, verdana,simsum;}
+.qunshuom{float:left;width:180px;line-height:24px;margin:0px 0px 5px 5px;font-size:12px;color: #88a526;text-align:left; background-color: none;}
+.qunshuom p {margin:0px;}
+.fontlink {float:left;}
+.fontlink a:link,.fontlink a:visited{color:#88a526;}
+.fontlink a:hover {color:#F00;}
+
+/*微信*/
+.weichat{float:left;font-size:12px; color:#000;}
+.weichat a:link,.weichat a:visited{color:#88a526;}
+.weichat a:hover {color:#F00;}
+
+
+
+/*支付宝支付和二维码*/
+.formoney {float:left; margin:5px 0px 10px 55px;width:65px;text-align:left;}/*text-indent:2em;background-color:red; */
+.huaixiao {float:left; margin:0;}
+
+/*右边栏的分割线*/
+.lineright{float:right;width:200px;background:url(../images/aline.gif) repeat-x;height:1px;margin:0px 0px 5px 0px;}
+
+
+/*常用软件*/
+
+/*软件标题*/.softname{float:left;width:197px;margin:0 0 5px 2px;padding: 5px 0 4px 0px; text-align: center; height:13px; background-color: #DEE7BC;color: #595959; line-height:12px; font-family: Arial;}
+/*一个软件*/.softdown{float:left;width:180px;margin:0 0 10px 10px;padding:0 0px 0px 0px; text-align:left; height:15px; background-color:#fff;color: #6C6C6C; line-height:15px;; font-family: 宋体,Arial, Helvetica, sans-serif;}
+           .softdown a:link,.softdown a:visited {padding-right:5px;color:#88a526;}
+		   .softdown a:hover{padding-right:5px;color:#F00;}
+
+.software{float:left;width:185px;margin:10px 0px 10px 15px;}
+.asoft {float:left;width:180px;height:22px;margin:2px 0px 1px 0px;font-size:12px;color: #88a526;text-align:left;font-family: Arial, Helvetica, verdana,simsum;}
+.asoft a:link,.asoft a:visited {padding-left:10px;color:#88a526;}
+.asoft a:hover{padding-left:10px;color:#F00;}
+
+
+
+/*介绍页使用*/
+/*圆角矩形*/
+.b1,.b2,.b3,.b4,.b1b,.b2b,.b3b,.b4b,.b{display:block;overflow:hidden;}
+.b1,.b2,.b3,.b1b,.b2b,.b3b{height:1px;}
+.b2,.b3,.b4,.b2b,.b3b,.b4b,.b{border-left:1px solid #ADCD3C;border-right:1px solid #ADCD3C;}/* 圆角矩形左右边框的颜色 */
+.b1,.b1b{margin:0 5px;background:#ADCD3C;}/* 圆角矩形上下边框的颜色 */
+.b2,.b2b{margin:0 3px;border-width:2px;}
+.b3,.b3b{margin:0 2px;}
+.b4,.b4b{height:2px;margin:0 1px;}
+.d1{background:#FFFFF7;}/* 圆角矩形背景色*/
+.bg_yellow{background:#ffffec;}/* 浅黄色背景#f5f3ca */
+
+
+
+/*版权信息*/
+.banquan {float:left;color:#999;margin:20px 0px 50px 0px;width:1000px;font-family:Arial, Helvetica, verdana,simsum;font-size:12px;line-height:22px;}
+.banquan a:link,.banquan  a:visited{color:#999;}
+.banquan a:hover {color: #F00;}
+
+/*关于我们中我的头像和间接*/
+.mypic{float:left;margin-left:20px;margin-top:10px;}
+.mypic_bottom{float:inherit;margin-left:28px;margin-top:18px;background-color:#88a526;height:160px;width:160px;}
+.aboutme{float:left;width:190px;height:30px;color:#999999;line-height:20px;text-align:center;font-size:12px;margin:20px 10px 20px 10px;}
+.aboutcontent{float:left; text-indent:2em;text-align:left;line-height:25px;font-size:12px;margin-left:10px;margin-right:10px;padding:20px;width:700px;font-family:Arial, Helvetica, verdana,simsum;}
+.aboutcontent p {margin:0px;}
+
+/*分类页使用*/
+.fenleitonglan{float:left;border:none;margin:0 0 0 0;padding:0;width:1000px;border:1px solid #E2E89D;height:auto; background-color:#FAFFEC}
+.typename{float:left;width:150px;margin:5px 0 0 5px;padding:5px 0 5px 0px;border:none; font-size:14px; text-align:center; background-color:#88a526; color:#FFFFFF;}
+.allwebs{float:right;width:800px;margin:0;padding:0 0 0 15px;border:none; }/*background-color:yellow;*/
+.allwebs ul {width:auto;vertical-align:top;list-style-type:none;list-style-image:none;padding:0px; }
+.allwebs li {float:left;width:90px; text-align:left;margin:0px 10px 15px 0px;}/* background-color:#F99*/
+.allwebs li a:link,.allwebs li a:visited{font-size:14px;font-family:Arial, Helvetica, verdana,simsum;color:#414141; }
+.allwebs li a:hover {color: #F00;}
+.typeline{float:left;width:990px;background:url(../images/aline.gif) repeat-x;height:1px;margin:0 0 0 5px;}/*一条线*/
