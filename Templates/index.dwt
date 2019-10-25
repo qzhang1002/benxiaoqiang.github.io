@@ -139,13 +139,13 @@ var _hmt = _hmt || [];
 
 <!-- Search Google -->
  <form method="get" action="http://www.google.cn/search" target="google_window">
-   <iframe height="110" src="Google学术搜索镜像_sci-hub网址_大木虫学术导航_files/ss.html" frameborder="0" width="857px" name="iframe_canvas" scrolling="no"> </iframe>
+   <iframe height="110" src="../Google学术搜索镜像_sci-hub网址_大木虫学术导航_files/ss.html" frameborder="0" width="857px" name="iframe_canvas" scrolling="no"> </iframe>
 </form>
  <!-- Search Google -->
 <table width="857" border="0" align="center" cellpadding="1" cellspacing="1">
   <tr>
-    <td align="center" bgcolor="#CC0000"><a href= "index.html">Home</a></td>
-    <td align="center" bgcolor="#FF0066"><a href="Blog/Blog_home.html">Blog</a></td>
+    <td align="center" bgcolor="#CC0000"><a href= "../index.html">Home</a></td>
+    <td align="center" bgcolor="#FF0066"><a href="../Blog/Blog_home.html">Blog</a></td>
     <td align="center" bgcolor="#CC00CC"><a href="https://orcid.org/0000-0002-1711-0914">About</a></td>
   </tr>
 </table>
@@ -299,13 +299,13 @@ var _hmt = _hmt || [];
     <td align="left" bgcolor="honeydew"><a href="http://www.medsci.cn/sci/" title="影响因子查询" target="_new">影响因子查询1</a></td>
     <td align="left" bgcolor="honeydew" class="字体"><a href="http://www.greensci.net/" title="影响因子查询" target="_new">影响因子查询2</a></td>
     <td align="left" bgcolor="honeydew" class="字体"><a href="https://my.chsi.com.cn/archive/index.jsp">学信档案</a></td>
-    <td align="left" bgcolor="honeydew" class="字体"><a href="http://bioinformatics.psb.ugent.be/beg/tools/venn-diagrams" title="在线绘制Venn图">韦恩图</a></td>
+    <td align="left" bgcolor="honeydew" class="字体"><a href="http://bioinformatics.psb.ugent.be/webtools/Venn/" title="在线绘制Venn图">韦恩图</a></td>
 		<tr>
     <td align="left" bgcolor="honeydew" class="标题">&nbsp;</td>
     <td align="left" bgcolor="honeydew" class="字体"><a href="http://www.sciencegateway.org/tools/index.html" title="生物信息学计算工具" target="_new">Sciencegateway</a></td>
     <td align="left" bgcolor="honeydew" class="字体"><a href="https://twitter.com/" title="Twitter">Twitter</a></td>
     <td align="left" bgcolor="honeydew"><a href="http://www.scoop.it" title="Scoop.i">Scoop.it</a></td>
-    <td align="left" bgcolor="honeydew" class="字体"><a href="https://feedly.com">Feedly</a></td>
+    <td align="left" bgcolor="honeydew" class="字体"><a href="https://feedly.com/i/my">Feedly</a></td>
   </tr>
 	<tr>
     <td align="left" bgcolor="honeydew" class="标题">Sholarone</td>
