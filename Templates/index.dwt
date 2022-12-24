@@ -18,14 +18,14 @@ body,td,th {
 	font-family: "Times New Roman", Times, serif;
 }
 body {
-	background-color: honeydew;
-	border-top-color: #360;
-	border-right-color: #360;
-	border-bottom-color: #360;
-	border-left-color: #360;
-	font-size: 18px;
-	text-align: center;
-	color: #000;
+    background-color: #FFFFFF;
+    border-top-color: #360;
+    border-right-color: #360;
+    border-bottom-color: #360;
+    border-left-color: #360;
+    font-size: 18px;
+    text-align: center;
+    color: #000;
 }
 h1 {
 	font-size: 24px;
@@ -139,272 +139,287 @@ var _hmt = _hmt || [];
 
 <!-- Search Google -->
  <form method="get" action="http://www.google.cn/search" target="google_window">
-   <iframe height="110" src="Google学术搜索镜像_sci-hub网址_大木虫学术导航_files/ss.html" frameborder="0" width="857px" name="iframe_canvas" scrolling="no"> </iframe>
+   <iframe height="110" src="../Google学术搜索镜像_sci-hub网址_大木虫学术导航_files/ss.html" frameborder="0" width="857px" name="iframe_canvas" scrolling="no"> </iframe>
 </form>
  <!-- Search Google -->
 <table width="857" border="0" align="center" cellpadding="1" cellspacing="1">
   <tr>
-    <td align="center" bgcolor="#CC0000"><a href= "index.html">Home</a></td>
-    <td align="center" bgcolor="#FF0066"><a>Blog</a></td>
-    <td align="center" bgcolor="#CC00CC"><a>About</a></td>
+   
+    <td align="center" bgcolor="#CC00CC"><a href="../index_backup20200128.html">Old version</a></td>
   </tr>
 </table>
 
 <form id="form3" name="form3" method="post" action="">
-  <table width="857" border="0" align="center" cellpadding="1" style="border: thick dotted #03F; background-color: honeydew; font-size: 18px; color: #0F0; font-family: Arial, Helvetica, sans-serif; font-weight: bold;">
+  <table width="847" border="1" align="center" cellpadding="5" cellspacing="2" style="border: thick dotted #03F; background-color: honeydew; font-size: 18px; color: #0F0; font-family: Arial, Helvetica, sans-serif; font-weight: bold;">
   <caption>
   <div align="left" class="张强">生物网站 </div>
   </caption>
   <tr>
-    <th width="156" align="left" bgcolor="honeydew" class="标题" scope="col"> 基因组信息</th>
-    <th width="188" align="left" bgcolor="honeydew" scope="col"><a href="http://www.ncbi.nlm.nih.gov/" class="字体"  target="_new">NCBI</a></th>
-    <th width="172" align="left" bgcolor="honeydew" scope="col"><a href="http://www.arabidopsis.org/" title="拟南芥基因组网站" class="字体" target="_new">TAIR</a></th>
-    <th width="144" align="left" bgcolor="honeydew" scope="col"><em class="字体"><a href="http://www.broadinstitute.org/annotation/genome/phytophthora_infestans/MultiHome.html" title="致病疫霉菌基因组"  target="_new">P. infestans</a></em></th>
-    <th width="163" align="left" bgcolor="honeydew" scope="col"><em class="字体"><a href="http://www.broadinstitute.org/annotation/genome/Phytophthora_parasitica/MultiHome.html" title="寄生疫霉菌基因组" target="_new">P. parasitica</a></em></th>
+    <th width="157" height="33" align="left" bgcolor="#FFFFFF" class="标题" scope="col"> 基因组信息</th>
+    <th width="182" align="left" bgcolor="#FFFFFF" scope="col"><em class="字体"><em><a href="http://solgenomics.net/organism/Nicotiana_benthamiana/genome" title="本氏烟基因组" class="字体" target="_new">Nicotiana benthamiana</a></em></em></th>
+    <th width="158" align="left" bgcolor="#FFFFFF" scope="col"><a href="http://www.arabidopsis.org/" title="拟南芥基因组网站" class="字体" target="_new">TAIR</a></th>
+    <th width="120" align="left" bgcolor="#FFFFFF" scope="col"><em class="字体"><a href="http://www.ncbi.nlm.nih.gov/" class="字体"  target="_new">NCBI</a></em></th>
+    <th width="156" align="left" bgcolor="#FFFFFF" scope="col">&nbsp;</th>
+  </tr>
+ 
+  <tr>
+    <td height="33" align="left" valign="middle" bgcolor="#FFFFFF" class="标题">谷歌镜像</td>
+    <td align="left" bgcolor="#FFFFFF"><a href="https://stuch.cn/guge/" target="_new"><strong>谷歌镜像1</strong></a></td>
+    <td align="left" bgcolor="#FFFFFF"><a href="https://ac.scmor.com/" target="_new"><strong>谷歌镜像2</strong></a></td>
+    <td align="left" bgcolor="#FFFFFF"><a href="http://www.sci-hub.ac.cn/">文献小镇</a></td>
+    <td align="left" bgcolor="#FFFFFF" class="字体"><a href="https://en.wikipedia.org/wiki/Main_Page">wiki</a></td>
   </tr>
   <tr>
-    <th align="left" bgcolor="honeydew" class="标题" scope="col">&nbsp;</th>
-    <th align="left" bgcolor="honeydew" class="字体" scope="col"><em><a href="http://solgenomics.net/organism/Nicotiana_benthamiana/genome" title="本氏烟基因组" class="字体" target="_new">Nicotiana benthamiana</a></em></th>
-    <th align="left" bgcolor="honeydew" scope="col"><em class="字体"><a href="http://solgenomics.net/organism/Nicotiana_tabacum/genome" title="普通烟基因组" target="_new">Nicotiana tobaccum </a></em></th>
-    <th align="left" bgcolor="honeydew" class="字体" scope="col"><em><a href="http://genome.jgi-psf.org/Physo3/Physo3.home.html" title="大豆疫霉菌基因组网站" target="_new">P. sojae</a></em></th>
-    <th align="left" bgcolor="honeydew" class="字体" scope="col"><a href="http://genome.jgi-psf.org/Phyca11/Phyca11.home.html" title="辣椒疫霉菌基因组" target="_new"><em>P. capsici</em></a><em></em></th>
-  </tr>
- <tr>
-    <td align="left" valign="middle" bgcolor="honeydew" class="标题">谷歌镜像</td>
-    <td align="left" bgcolor="honeydew"><a href="https://github.com/Alvin9999/new-pac/wiki/%E8%B0%B7%E6%AD%8C%E9%95%9C%E5%83%8F" title="谷歌镜像：https://github.com/Alvin9999/new-pac/wiki/%E8%B0%B7%E6%AD%8C%E9%95%9C%E5%83%8F" target="_new"><strong>谷歌镜像1</strong></a></td>
-    <td align="left" bgcolor="honeydew"><a href="https://ac.scmor.com/" title="谷歌镜像：https://ac.scmor.com/" target="_new"><strong>谷歌镜像2</strong></a></td>
-    <td align="left" bgcolor="honeydew"><a href="https://lai.yuweining.cn/archives/2112/" title="谷歌镜像：https://lai.yuweining.cn/archives/2112/" target="_new"><strong>谷歌镜像3</strong></a></td>
-    <td align="left" bgcolor="honeydew" class="字体"><a href="http://www.kaseng.top/" title="谷歌镜像：http://www.kaseng.top/" target="_new"><strong>谷歌镜像4</strong></a></td>
-  </tr>
-	   <tr>
-    <td align="left" valign="middle" bgcolor="honeydew" class="标题">&nbsp;</td>
-    <td align="left" bgcolor="honeydew"><a href="https://c3x.glgoo.top/" title="学术镜像：https://c3x.glgoo.top/" target="_new"><strong>学术镜像1</strong></a></td>
-    <td align="left" bgcolor="honeydew"><a href="https://a.glgoo.top/scholar/" title="学术镜像：https://a.glgoo.top/scholar/" target="_new"><strong>学术镜像2</strong></a></td>
-    <td align="left" bgcolor="honeydew"><a href="https://cx.glgoo.top/" title="学术镜像：https://cx.glgoo.top/" target="_new"><strong>学术镜像3</strong></a></td>
-    <td align="left" bgcolor="honeydew" class="字体"><a href="https://a.glgoo.top/" title="学术镜像：https://a.glgoo.top/" target="_new"><strong>学术镜像4</strong></a></td>
+    <td align="left" valign="middle" bgcolor="#FFFFFF" class="标题">学习网站</td>
+    <td align="left" bgcolor="#FFFFFF"><a href="https://www.shanbay.com/" title="扇贝" target="_new"><strong>扇贝英语</strong></a></td>
+    <td align="left" bgcolor="#FFFFFF"><a href="https://www.shiyanlou.com/" title="Linux学习" class="字体" target="_new">实验楼</a></td>
+    <td align="left" bgcolor="#FFFFFF"><a href="https://www.liaoxuefeng.com/wiki/1016959663602400/1016959735620448" title="廖雪峰Python" class="字体" target="_new">廖雪峰Python</a></td>
+    <td align="left" bgcolor="#FFFFFF" class="字体"><a href="http://www.chinadaily.com.cn/">Chinadaily</a></td>
   </tr>
   <tr>
-    <td align="left" valign="middle" bgcolor="honeydew" class="标题">序列比对</td>
-    <td align="left" bgcolor="honeydew"><a href="http://blast.ncbi.nlm.nih.gov/Blast.cgi" title="NCBI blast工具" target="_new"><strong>Blast</strong></a></td>
-    <td align="left" bgcolor="honeydew"><a href="http://www.megasoftware.net/" title="进行序列进化分析工具" class="字体" target="_new">Mega</a></td>
-    <td align="left" bgcolor="honeydew"><a href="http://clustalw.ddbj.nig.ac.jp/" title="多序列比对工具" class="字体" target="_new">Clustalw</a></td>
-    <td align="left" bgcolor="honeydew" class="字体">&nbsp;</td>
+    <td align="left" valign="middle" bgcolor="#FFFFFF" class="标题">序列比对</td>
+    <td align="left" bgcolor="#FFFFFF"><a href="http://blast.ncbi.nlm.nih.gov/Blast.cgi" title="NCBI blast工具" target="_new"><strong>Blast</strong></a></td>
+    <td align="left" bgcolor="#FFFFFF"><a href="http://www.megasoftware.net/" title="进行序列进化分析工具" class="字体" target="_new">Mega</a></td>
+    <td align="left" bgcolor="#FFFFFF"><a href="http://clustalw.ddbj.nig.ac.jp/" title="多序列比对工具" class="字体" target="_new">Clustalw</a></td>
+    <td align="left" bgcolor="#FFFFFF" class="字体">&nbsp;</td>
   </tr>
-  
-  
+	  
+  <tr>
+    <td rowspan="3" align="left" bgcolor="#FFFFFF" class="标题">Maize associated</td>
+    <td height="23" align="left" bgcolor="#FFFFFF" class="字体"><a href="https://www.maizegdb.org/" target="new">maizeGBD</a></td>
+    <td align="left" bgcolor="#FFFFFF"><a href="https://bioinformatics.psb.ugent.be/plaza/">PLAZA</a></td>
+    <td align="left" bgcolor="#FFFFFF" class="字体"><a href="http://cbi.hzau.edu.cn/cgi-bin/CRISPR2/CRISPR">CRISPR-P</a></td>
+    <td align="left" bgcolor="#FFFFFF" class="字体"><a href="http://www.gramene.org/">GRAMENE</a></td>
   </tr>
   <tr>
-    <td align="left" bgcolor="honeydew" class="标题">群体遗传</td>
-    <td align="left" bgcolor="honeydew" class="teshu"><a href="http://beast.bio.ed.ac.uk/figtree" target="_self" class="字体">FIGTREE</a></td>
-    <td align="left" bgcolor="honeydew"><a href="http://statgen.ncsu.edu/powermarker/" class="字体">PowerMarker</a></td>
-    <td align="left" bgcolor="honeydew"><a href="http://pritchardlab.stanford.edu/structure.html" class="字体">Structure</a></td>
-    <td align="left" bgcolor="honeydew" class="字体"><a href="http://cgfufpel.org/ssrlocator_pt.htm">SSR Locator</a></td>
+    <td height="23" align="left" bgcolor="#FFFFFF" class="字体"><a href="http://crispid.gbiomed.kuleuven.be/" title="Detecting CRISPR mediated indels by Sanger sequencing">CRISP-ID</a></td>
+    <td align="left" bgcolor="#FFFFFF"><a href="https://nam-genomes.org">NAM Genome</a></td>
+    <td align="left" bgcolor="#FFFFFF" class="字体"><a href="http://www.zeamap.com/" title="严建兵实验室构建的玉米多组学数据库">ZEAMAP</a></td>
+    <td align="left" bgcolor="#FFFFFF" class="字体"><a href="http://helix.wustl.edu/dcaps/dcaps.html">dCAPs finder</a></td>
+  </tr>
+    <tr>
+    <td align="left" bgcolor="#FFFFFF" class="字体"><a href="http://elabcaas.cn/memd/index.php" title="EMS 诱变突变体库">MEMD</a></td>
+    <td align="left" bgcolor="#FFFFFF" class="字体"><a href="http://plants.proteincomplexes.org/" title="Protein-protein interaction network">Plant.MAP</a></td>
+    <td align="left" bgcolor="#FFFFFF"><a href="https://plants.ensembl.org/index.html"> EnsemblPlant</a></td>
+    <td align="left" bgcolor="#FFFFFF" class="字体"><a> </a></td>
   </tr>
   <tr>
-    <td align="left" bgcolor="honeydew" class="标题">&nbsp;</td>
-    <td align="left" bgcolor="honeydew" class="字体"><a href="http://grunwaldlab.github.io/Population_Genetics_in_R/index.html" title="Population genetics in R">Poppr</a></td>
-    <td align="left" bgcolor="honeydew" class="字体"><strong><a href="http://www.uwyo.edu/dbmcd/popecol/maylects/popgengloss.html#Microsatellite" title="群体遗传相关术语">相关术语</a></strong> </td>
-    <td align="left" bgcolor="honeydew"><a href="http://evolution.genetics.washington.edu/phylip/software.html#systems" title="Some software for phylogenetic analysis">相关软件</a></td>
-    <td align="left" bgcolor="honeydew" class="字体">&nbsp;</td>
+    <td rowspan="3" align="left" bgcolor="#FFFFFF" class="标题">结构预测</td>
+    <td align="left" bgcolor="#FFFFFF" class="字体"><a href="http://smart.embl-heidelberg.de/" title="预测蛋白保守结构域">Smart</a></td>
+    <td align="left" bgcolor="#FFFFFF" class="字体"><a href="http://www.ncbi.nlm.nih.gov/Structure/cdd/wrpsb.cgi" title="NCBI 预测蛋白保守结构域" class="字体" target="_new">CDD</a></td>
+    <td align="left" bgcolor="#FFFFFF" class="字体"><a href="https://npsa-prabi.ibcp.fr/cgi-bin/npsa_automat.pl?page=/NPSA/npsa_sopma.html%E2%80%98", title="SOPMA SECONDARY STRUCTURE PREDICTION METHOD">NPS</a></td>
+    <td align="left" bgcolor="#FFFFFF" class="字体"><a href="http://rna.urmc.rochester.edu/RNAstructureWeb/Information/Help.html">RNA structure</a></td>
+  </tr>
+  <tr>
+    <td align="left" bgcolor="#FFFFFF" class="字体"><a href="http://molbiol-tools.ca/Motifs.htm">Motifs</a></td>
+    <td align="left" bgcolor="#FFFFFF" class="字体"><a href="http://molbiol-tools.ca/">Molbiol-tools</a></td>
+    <td align="left" bgcolor="#FFFFFF"><a href="http://www.cbs.dtu.dk/services/SignalP/" title="预测蛋白信号肽的在线工具">SignalP</a></td>
+    <td align="left" bgcolor="#FFFFFF" class="字体">&nbsp;</td>
+  </tr>
+  <tr>
+    <td align="left" bgcolor="#FFFFFF" class="字体"><a href="http://bioinformatics.psb.ugent.be/hfAIM/" title="ATG8-interacting motifs">hfAIM</a></td>
+    <td align="left" bgcolor="#FFFFFF" class="字体"><a href="http://topcons.cbr.su.se/pred/" title="膜蛋白拓扑结构及信号肽预测">TOPCONS</a></td>
+    <td align="left" bgcolor="#FFFFFF">&nbsp;</td>
+    <td align="left" bgcolor="#FFFFFF" class="字体">&nbsp;</td>
+  </tr>
+  <tr>
+    <td align="left" bgcolor="#FFFFFF" class="标题">基因结构绘制</td>
+    <td align="left" bgcolor="#FFFFFF" class="字体"><a href="http://gsds.cbi.pku.edu.cn/Gsds_help.php#level2-1-4" title="基因结构绘制网站，基于gff文件">GSDS 2.0</a></td>
+    <td align="left" bgcolor="#FFFFFF" class="字体"><a href="http://ibs.biocuckoo.org/download.php" title="Illustrator for Biological Sequences">IBS</a></td>
+    <td align="left" bgcolor="#FFFFFF"><a> </a></td>
+    <td align="left" bgcolor="#FFFFFF" class="字体"><a> </a></td>
+  </tr>
+  <tr>
+    <td align="left" bgcolor="#FFFFFF" class="标题">Promotor分析</td>
+    <td align="left" bgcolor="#FFFFFF" class="字体"><a href="http://gsds.cbi.pku.edu.cn/Gsds_help.php#level2-1-4" title="基因结构绘制网站，基于gff文件">PLACE</a></td>
+    <td align="left" bgcolor="#FFFFFF" class="字体"><a href="http://linux1.softberry.com/berry.phtml?topic=tssp&group=programs&subgroup=promoter" title="TSSP / Prediction of PLANT Promoters (Using RegSite Plant DB, Softberry Inc.)">TSSP</a></td>
+    <td align="left" bgcolor="#FFFFFF"><a href="http://bioinformatics.psb.ugent.be/webtools/plantcare/html/" title="Plantcare">PLANTCARE</a></td>
+    <td align="left" bgcolor="#FFFFFF" class="字体"><a href="https://molbiol-tools.ca/Promoters.htm" title="A collection of some useful tools">Promotors </a></td>
+  </tr>
+  <tr>
+    <td rowspan="2" align="left" bgcolor="#FFFFFF" class="标题">亚细胞定位预测</td>
+    <td align="left" bgcolor="#FFFFFF"><a href="http://localizer.csiro.au/" title="subcellular localization prediction of plant and effector proteins in the plant cell">LOCALIZER</a></td>
+    <td align="left" bgcolor="#FFFFFF" class="字体"><a href="http://www.moseslab.csb.utoronto.ca/NLStradamus/" title="核定位信号预测网站">NLStradamus</a></td>
+    <td align="left" bgcolor="#FFFFFF" class="字体"><a href="http://mleg.cse.sc.edu/seqNLS/" title="核定位信号预测">SeqNLS</a></td>
+    <td align="left" bgcolor="#FFFFFF" class="字体"><a href="http://nls-mapper.iab.keio.ac.jp/cgi-bin/NLS_Mapper_form.cgi" title="Prediction of importin α-dependent nuclear localization signals">NLS mapper</a></td>
+  </tr>
+	    <tr>
+    <td align="left" bgcolor="#FFFFFF" class="字体"><a href="http://www.cbs.dtu.dk/services/TargetP/" title="预测叶绿体及线粒体定位信号">TargetP</a></td>
+    <td align="left" bgcolor="#FFFFFF" class="字体"><a href="http://www.csbio.sjtu.edu.cn/bioinf/Cell-PLoc/" title="蛋白亚细胞结果预测">Cell-PLoc</a></td>
+    <td align="left" bgcolor="#FFFFFF">&nbsp;</td>
+    <td align="left" bgcolor="#FFFFFF" class="字体">&nbsp;</td>
+  </tr>
+  <tr>
+    <td rowspan="2" align="left" bgcolor="#FFFFFF" class="标题">DNA序列</td>
+    <td align="left" bgcolor="#FFFFFF" class="字体"><a href="https://www-bimas.cit.nih.gov/molbio/proscan/", title="promotor 预测">Promotor 预测</a></td>
+    <td align="left" bgcolor="#FFFFFF" class="字体"><a href="http://www.bioinformatics.org/sms/rev_comp.html">反向互补</a></td>
+    <td align="left" bgcolor="#FFFFFF" class="字体"><a href="https://www.ncbi.nlm.nih.gov/orffinder/" title="预测ORF">ORF finder</a></td>
+    <td align="left" bgcolor="#FFFFFF" class="字体"><a href="https://www.ebi.ac.uk/Tools/st/emboss_transeq/">蛋白翻译</a></td>
+  </tr>
+  <tr>
+    <td align="left" bgcolor="#FFFFFF" class="字体"><a href="http://www.bio-soft.net/sms/index.html" title="序列处理在线工具包" target="_new">序列在线处理</a></td>
+    <td align="left" bgcolor="#FFFFFF" class="字体"><a href="../sms2/combine_fasta.html" title="序列在线处理软件">SMS2</a></td>
+    <td align="left" bgcolor="#FFFFFF" class="字体"><a> </a></td>
+    <td align="left" bgcolor="#FFFFFF" class="字体"><a> </a></td>
+  </tr>
+ 
+  <tr>
+    <td align="left" bgcolor="#FFFFFF" class="标题">进化树美化</td>
+    <td align="left" bgcolor="#FFFFFF"><a href="https://www.evolgenius.info/evolview/#login" title="进化树美化">Evolview</a></td>
+    <td align="left" bgcolor="#FFFFFF" class="字体"><a href="https://itol.embl.de/" title="进化树美化">ITOL</a></td>
+    <td align="left" bgcolor="#FFFFFF" class="字体"><a> </a></td>
+    <td align="left" bgcolor="#FFFFFF" class="字体"><a> </a></td>
+  </tr>
+  <tr>
+    <td align="left" bgcolor="#FFFFFF" class="标题">序列比对结果美化</td>
+    <td align="left" bgcolor="#FFFFFF"><a href="https://embnet.vital-it.ch/software/BOX_form.html" title="颜色标记多序列比对结果">序列比对美化</a></td>
+    <td align="left" bgcolor="#FFFFFF" class="字体"><a href="http://weblogo.berkeley.edu/logo.cgi">WebLOGO</a></td>
+    <td align="left" bgcolor="#FFFFFF" class="字体"><a> </a></td>
+    <td align="left" bgcolor="#FFFFFF" class="字体"><a> </a></td>
   </tr>
 
- 
   <tr>
-    <td align="left" bgcolor="honeydew" class="标题">Maize associated</td>
-    <td align="left" bgcolor="honeydew" class="字体"><a href="https://www.maizegdb.org/" target="new">maizeGBD</a></td>
-    <td align="left" bgcolor="honeydew">&nbsp;</td>
-    <td align="left" bgcolor="honeydew" class="字体">&nbsp;</td>
-    <td align="left" bgcolor="honeydew" class="字体">&nbsp;</td>
-  </tr>
-  <tr>
-    <td align="left" bgcolor="honeydew" class="标题">结构预测</td>
-    <td align="left" bgcolor="honeydew" class="字体"><a href="http://smart.embl-heidelberg.de/" title="预测蛋白保守结构域">Smart</a></td>
-    <td align="left" bgcolor="honeydew" class="字体"><a href="http://nls-mapper.iab.keio.ac.jp/cgi-bin/NLS_Mapper_form.cgi" title="Prediction of importin α-dependent nuclear localization signals">NLS mapper</a></td>
-    <td align="left" bgcolor="honeydew" class="字体"><a href="https://npsa-prabi.ibcp.fr/cgi-bin/npsa_automat.pl?page=/NPSA/npsa_sopma.html%E2%80%98", title="SOPMA SECONDARY STRUCTURE PREDICTION METHOD">NPS</a></td>
-    <td align="left" bgcolor="honeydew" class="字体"><a href="http://rna.urmc.rochester.edu/RNAstructureWeb/Information/Help.html">RNA structure</a></td>
+    <td rowspan="2" align="left" bgcolor="#FFFFFF" class="标题">计算工具</td>
+    <td align="left" bgcolor="#FFFFFF"><a href="http://www.sciencegateway.org/tools/proteinmw.htm">蛋白分子质量</a></td>
+    <td align="left" bgcolor="#FFFFFF" class="字体"><a href="https://www.graphpad.com/quickcalcs/ttest1.cfm">t test</a></td>
+    <td align="left" bgcolor="#FFFFFF" class="字体"><a href="https://web.expasy.org/compute_pi/" title="A tool to calculate the pI value and molecular weight of protein">pI/MW</a></td>
+    <td align="left" bgcolor="#FFFFFF" class="字体"><a href="http://www.basic.northwestern.edu/biotools/oligocalc.html">Oligocalc</a></td>
   </tr>
   <tr>
-    <td align="left" bgcolor="honeydew" class="标题">&nbsp;</td>
-    <td align="left" bgcolor="honeydew" class="字体"><a href="http://molbiol-tools.ca/Motifs.htm">Motifs</a></td>
-    <td align="left" bgcolor="honeydew" class="字体"><a href="http://molbiol-tools.ca/">Molbiol-tools</a></td>
-    <td align="left" bgcolor="honeydew"><a href="http://www.cbs.dtu.dk/services/SignalP/" title="预测蛋白信号肽的在线工具">SignalP</a></td>
-    <td align="left" bgcolor="honeydew" class="字体"><a href="https://sogo.dna.affrc.go.jp/cgi-bin/sogo.cgi?lang=en&pj=640&action=page&page=newplace" title="Promotor prediction">Promotor结合位点</a></td>
-  </tr>
-	 <tr>
-    <td align="left" bgcolor="honeydew" class="标题">&nbsp;</td>
-    <td align="left" bgcolor="honeydew" class="字体"><a href="http://www.moseslab.csb.utoronto.ca/NLStradamus/" title="核定位信号预测网站">NLStradamus</a></td>
-    <td align="left" bgcolor="honeydew" class="字体"><a href="http://gsds.cbi.pku.edu.cn/Gsds_help.php#level2-1-4" title="基因结构绘制网站，基于gff文件">GSDS 2.0</a></td>
-    <td align="left" bgcolor="honeydew"><a href="http://localizer.csiro.au/" title="subcellular localization prediction of plant and effector proteins in the plant cell">LOCALIZER</a></td>
-    <td align="left" bgcolor="honeydew" class="字体"><a href="http://mleg.cse.sc.edu/seqNLS/" title="核定位信号预测">SeqNLS</a></td>
-  </tr>
- <tr>
-    <td align="left" bgcolor="honeydew" class="标题">&nbsp;</td>
-    <td align="left" bgcolor="honeydew" class="字体"><a href="http://www.ncbi.nlm.nih.gov/Structure/cdd/wrpsb.cgi" title="NCBI 预测蛋白保守结构域" class="字体" target="_new">CDD</a></td>
-    <td align="left" bgcolor="honeydew" class="字体"></td>
-    <td align="left" bgcolor="honeydew"></td>
-    <td align="left" bgcolor="honeydew" class="字体"></td>
+    <td align="left" bgcolor="#FFFFFF"><a href="http://www.sciencegateway.org/tools/index.html" title="生物信息学计算工具" target="_new">Sciencegateway</a></td>
+    <td align="left" bgcolor="#FFFFFF" class="字体"><a href="https://crm.vazyme.com/cetool/restructure.html">诺唯赞连接</a></td>
+    <td align="left" bgcolor="#FFFFFF" class="字体">&nbsp;</td>
+    <td align="left" bgcolor="#FFFFFF" class="字体">&nbsp;</td>
   </tr>
   <tr>
-    <td align="left" bgcolor="honeydew" class="标题">DNA序列</td>
-  <td align="left" bgcolor="honeydew" class="字体"><a href="https://www-bimas.cit.nih.gov/molbio/proscan/", title="promotor 预测">Promotor 预测</a></td>
-    <td align="left" bgcolor="honeydew" class="字体"><a href="http://www.bioinformatics.org/sms/rev_comp.html">反向互补</a></td>
-    <td align="left" bgcolor="honeydew" class="字体"><a href="https://www.ncbi.nlm.nih.gov/orffinder/" title="预测ORF">ORF finder</a></td>
-    <td align="left" bgcolor="honeydew" class="字体"><a href="https://www.ebi.ac.uk/Tools/st/emboss_transeq/">蛋白翻译</a></td>
-  </tr>
-	<tr>
-    <td align="left" bgcolor="honeydew" class="标题">&nbsp;</td>
-  <td align="left" bgcolor="honeydew" class="字体"><a href="http://www.bio-soft.net/sms/index.html" title="序列处理在线工具包" target="_new">序列在线处理</a></td>
-    <td align="left" bgcolor="honeydew" class="字体"><a href="http://ibs.biocuckoo.org/download.php" title="Illustrator for Biological Sequences">基因示意图绘制</a></td>
-    <td align="left" bgcolor="honeydew" class="字体"><a href="http://gsds.cbi.pku.edu.cn/">基因结构绘制</a></td>
-    <td align="left" bgcolor="honeydew" class="字体"></td>
+    <td height="23" align="left" bgcolor="#FFFFFF" class="标题">引物、酶切工具</td>
+    <td align="left" bgcolor="#FFFFFF" class="字体"><a href="http://www.idtdna.com/scitools/Applications/RealTimePCR/" title="qRTPCR primer design">qRTPCR</a></td>
+    <td align="left" bgcolor="#FFFFFF" class="字体"><a href="http://tools.neb.com/NEBcutter2/">NEBcutter</a></td>
+    <td align="left" bgcolor="#FFFFFF" class="字体"><a href="http://www.promega.com/a/apps/reTool/index.html" class="字体">Promega</a></td>
+    <td align="left" bgcolor="#FFFFFF" class="字体">&nbsp;</td>
   </tr>
   <tr>
-    <td align="left" bgcolor="honeydew" class="标题">蛋白序列分析</td>
-    <td align="left" bgcolor="honeydew"><a href="https://web.expasy.org/compute_pi/" title="A tool to calculate the pI value and molecular weight of protein">pI/MW</a></td>
-    <td align="left" bgcolor="honeydew" class="字体"><a href="https://embnet.vital-it.ch/software/BOX_form.html" title="颜色标记多序列比对结果">序列比对美化</a></td>
-    <td align="left" bgcolor="honeydew" class="字体"><a href="http://www.cbs.dtu.dk/services/TargetP/" title="预测叶绿体及线粒体定位信号">TargetP</a></td>
-    <td align="left" bgcolor="honeydew" class="字体"><a href="http://bioinformatics.psb.ugent.be/hfAIM/" title="ATG8-interacting motifs">hfAIM</a></td>
-  </tr>
-	 <tr>
-    <td align="left" bgcolor="honeydew" class="标题">小工具</td>
-    <td align="left" bgcolor="honeydew"><a href="http://www.sciencegateway.org/tools/proteinmw.htm">蛋白分子质量</a></td>
-    <td align="left" bgcolor="honeydew" class="字体"><a href="https://www.graphpad.com/quickcalcs/ttest1.cfm">t test</a></td>
-    <td align="left" bgcolor="honeydew" class="字体"><a href="https://app.readcube.com/library/" title="文献阅读">Readcube</a></td>
-    <td align="left" bgcolor="honeydew" class="字体">&nbsp;</td>
-  </tr>
-	   <tr>
-    <td align="left" bgcolor="honeydew" class="标题">&nbsp;</td>
-    <td align="left" bgcolor="honeydew"><a href="http://www.basic.northwestern.edu/biotools/oligocalc.html">Oligocalc</a></td>
-    <td align="left" bgcolor="honeydew" class="字体"><a href="http://www.idtdna.com/scitools/Applications/RealTimePCR/" title="qRTPCR primer design">qRTPCR</a></td>
-    <td align="left" bgcolor="honeydew" class="字体"><a href="http://tools.neb.com/NEBcutter2/">NEBcutter</a></td>
-    <td align="left" bgcolor="honeydew" class="字体"><a href="http://www.promega.com/a/apps/reTool/index.html" class="字体">Promega Enzyme</a></td>
-  </tr>
-	 <tr>
-    <td height="23" align="left" bgcolor="honeydew" class="标题">&nbsp;</td>
-    <td align="left" bgcolor="honeydew" class="字体"><a href="http://weblogo.berkeley.edu/logo.cgi">WebLOGO</a></td>
-    <td align="left" bgcolor="honeydew" class="字体"><a href="http://www.evolgenius.info/evolview/" title="进化树美化">Evolview</a></td>
-    <td align="left" bgcolor="honeydew" class="字体"><a href="https://itol.embl.de/" title="进化树美化">ITOL</a></td>
-    <td align="left" bgcolor="honeydew" class="字体"><a href="https://images.webofknowledge.com/WOKRS519B3/help/zh_CN/WOS/S_abrvjt.html" title="期刊缩写">期刊缩写</a></td>
+    <td align="left" bgcolor="#FFFFFF" class="标题">英文电子书下载</td>
+    <td align="left" bgcolor="#FFFFFF"><a href="http://en.booksee.org">Booksee</a></td>
+    <td align="left" bgcolor="#FFFFFF" class="字体"><a href="http://en.bookfi.net">Bookfi</a></td>
+    <td align="left" bgcolor="#FFFFFF" class="字体"><a href="http://booksc.org" class="字体">Booksc</a><a href="https://npsa-prabi.ibcp.fr/cgi-bin/npsa_automat.pl?page=/NPSA/npsa_sopma.html%E2%80%98" title="二级结构预测"></a></td>
+    <td align="left" bgcolor="#FFFFFF" class="字体"><a href="http://libgen.io" title="Libgen" target="_new">Libgen</a></td>
   </tr>
   <tr>
-    <td align="left" bgcolor="honeydew" class="标题">英文电子书下载</td>
-    <td align="left" bgcolor="honeydew"><a href="http://en.booksee.org">Booksee</a></td>
-    <td align="left" bgcolor="honeydew" class="字体"><a href="http://en.bookfi.net">Bookfi</a></td>
-    <td align="left" bgcolor="honeydew" class="字体"><a href="http://booksc.org" class="字体">Booksc</a><a href="https://npsa-prabi.ibcp.fr/cgi-bin/npsa_automat.pl?page=/NPSA/npsa_sopma.html%E2%80%98" title="二级结构预测"></a></td>
-    <td align="left" bgcolor="honeydew" class="字体"><a href="http://libgen.io" title="Libgen" target="_new">Libgen</a></td>
+    <td align="left" bgcolor="#FFFFFF" class="标题">论坛</td>
+    <td align="left" bgcolor="#FFFFFF" class="字体"><a href="http://www.sciencenet.cn/">科学网</a></td>
+    <td align="left" bgcolor="#FFFFFF"><a href="http://emuch.net/bbs/">小木虫</a></td>
+    <td align="left" bgcolor="#FFFFFF" class="字体"><a href="http://www.dxy.cn/bbs/">丁香园</a></td>
+    <td align="left" bgcolor="#FFFFFF" class="字体"><a href="http://www.researchgate.net/">Researchgate</a></td>
   </tr>
-   <tr>
-    <td align="left" bgcolor="honeydew" class="标题">论坛</td>
-    <td align="left" bgcolor="honeydew" class="字体"><a href="http://www.sciencenet.cn/">科学网</a></td>
-    <td align="left" bgcolor="honeydew"><a href="http://emuch.net/bbs/">小木虫</a></td>
-    <td align="left" bgcolor="honeydew" class="字体"><a href="http://www.dxy.cn/bbs/">丁香园</a></td>
-    <td align="left" bgcolor="honeydew" class="字体">&nbsp;</td>
+  <tr>
+    <td align="left" bgcolor="#FFFFFF" class="标题">文献下载网站</td>
+    <td align="left" bgcolor="#FFFFFF" class="字体"><a href="http://www.cnki.net/">CNKI</a></td>
+    <td align="left" bgcolor="#FFFFFF" class="字体"><a href="https://www.ncbi.nlm.nih.gov/pubmed/">Pubmed</a></td>
+    <td align="left" bgcolor="#FFFFFF" class="字体"><a href="http://apps.webofknowledge.com/UA_GeneralSearch_input.do?product=UA&search_mode=GeneralSearch&SID=5DJLyLoZTWpxPo9DTv2&preferencesSaved=">Web of science</a></td>
+    <td align="left" bgcolor="#FFFFFF" class="字体"><a href="http://www.duxiu.com/">读秀文献传递</a></td>
   </tr>
-	<tr>
-    <td align="left" bgcolor="honeydew" class="标题">文献下载网站</td>
-    <td align="left" bgcolor="honeydew" class="字体"><a href="http://www.cnki.net/">CNKI</a></td>
-    <td align="left" bgcolor="honeydew" class="字体"><a href="https://www.ncbi.nlm.nih.gov/pubmed/">Pubmed</a></td>
-    <td align="left" bgcolor="honeydew" class="字体"><a href="http://apps.webofknowledge.com/UA_GeneralSearch_input.do?product=UA&search_mode=GeneralSearch&SID=5DJLyLoZTWpxPo9DTv2&preferencesSaved=">Web of science</a></td>
-    <td align="left" bgcolor="honeydew" class="字体">&nbsp;</td>
+  <tr>
+    <td align="left" bgcolor="#FFFFFF" class="标题">&nbsp;</td>
+    <td align="left" bgcolor="#FFFFFF" class="字体"><a href="https://cn.bing.com/academic?mkt=zh-CN">Bing学术</a></td>
+    <td align="left" bgcolor="#FFFFFF" class="字体">&nbsp;</td>
+    <td align="left" bgcolor="#FFFFFF" class="字体">&nbsp;</td>
+    <td align="left" bgcolor="#FFFFFF" class="字体">&nbsp;</td>
   </tr>
- 
-	 <td align="left" bgcolor="honeydew" class="标题">其它</td>
-    <td align="left" bgcolor="honeydew"><a href="http://www.medsci.cn/sci/" title="影响因子查询" target="_new">影响因子查询1</a></td>
-    <td align="left" bgcolor="honeydew" class="字体"><a href="http://www.greensci.net/" title="影响因子查询" target="_new">影响因子查询2</a></td>
-    <td align="left" bgcolor="honeydew" class="字体"><a href="https://my.chsi.com.cn/archive/index.jsp">学信档案</a></td>
-    <td align="left" bgcolor="honeydew" class="字体"><a href="http://bioinformatics.psb.ugent.be/beg/tools/venn-diagrams" title="在线绘制Venn图">韦恩图</a></td>
-		<tr>
-    <td align="left" bgcolor="honeydew" class="标题">&nbsp;</td>
-    <td align="left" bgcolor="honeydew" class="字体"><a href="http://www.sciencegateway.org/tools/index.html" title="生物信息学计算工具" target="_new">Sciencegateway</a></td>
-    <td align="left" bgcolor="honeydew" class="字体"><a href="https://orcid.org" title="ORCID">ORCID</a></td>
-    <td align="left" bgcolor="honeydew"><a href="https://www.scoop.it/ title="Loop">Scoop.it</a></td>
-    <td align="left" bgcolor="honeydew" class="字体"><a href="https://feedly.com">Feedly</a></td>
+  <tr>
+    <td align="left" bgcolor="#FFFFFF" class="标题">绘图工具</td>
+    <td align="left" bgcolor="#FFFFFF" class="字体"><a href="http://bioinformatics.psb.ugent.be/beg/tools/venn-diagrams" title="在线绘制Venn图">韦恩图</a></td>
+    <td align="left" bgcolor="#FFFFFF" class="字体"><a href="https://www.r-graph-gallery.com/">R-Graph</a></td>
+    <td align="left" bgcolor="#FFFFFF" class="字体"><a href="https://www.phylo.org/portal2/home.action">CIPRES</a></td>
+    <td align="left" bgcolor="#FFFFFF" class="字体">&nbsp;</td>
   </tr>
-		<tr>
-    <td align="left" bgcolor="honeydew" class="标题">&nbsp;</td>
-    <td align="left" bgcolor="honeydew" class="字体"><a href="https://publons.com/dashboard/summary/"  target="_new"> Publons</a></td>
-    <td align="left" bgcolor="honeydew" class="字体"><a href="https://loop.frontiersin.org" title="Loop">Loop</a></td>
-    <td align="left" bgcolor="honeydew"><a href="http://www.researchgate.net/">Researchgate</a></td>
-    <td align="left" bgcolor="honeydew" class="字体"></td>
-  </tr>
-	
-	<tr>
-    <td align="left" bgcolor="honeydew" class="标题">Sholarone</td>
-    <td align="left" bgcolor="honeydew" class="字体"><a href="https://mc.manuscriptcentral.com/mpp" title="Scholarone MPP" target="_new">MPP</a></td>
-    <td align="left" bgcolor="honeydew" class="字体"><a href="https://mc.manuscriptcentral.com/plantdisease" title="Scholarone Plantdisease">Plant disease</a></td>
-    <td align="left" bgcolor="honeydew"></td>
-    <td align="left" bgcolor="honeydew" class="字体"></td>
-  </tr>
-	<tr>
-    <td align="left" bgcolor="honeydew" class="标题">友情链接</td>
-    <td align="left" bgcolor="honeydew" class="字体"><a href="https://ab.waguge.com/" target="_new">谷歌镜像</a></td>
-    <td align="left" bgcolor="honeydew" class="字体"><a href="http://ac.scmor.com/" target="_new">思谋学术</a></td>
-    <td align="left" bgcolor="honeydew"><a href="http://www.4243.net/" target="_new">大木虫</a>&nbsp;</td>
-    <td align="left" bgcolor="honeydew" class="字体"><a href="http://www.6453.net/" title="龙猫" target="_new">龙猫</a></td>
-  </tr>
+<td rowspan="4" align="left" bgcolor="#FFFFFF" class="标题">其它</td>
+  <td align="left" bgcolor="#FFFFFF"><a href="http://www.medsci.cn/sci/" title="影响因子查询" target="_new">影响因子查询1</a></td>
+  <td align="left" bgcolor="#FFFFFF" class="字体"><a href="http://www.greensci.net/" title="影响因子查询" target="_new">影响因子查询2</a></td>
+  <td align="left" bgcolor="#FFFFFF" class="字体"><a href="https://my.chsi.com.cn/archive/index.jsp">学信档案</a></td>
+  <td align="left" bgcolor="#FFFFFF" class="字体"><a href="http://cshprotocols.cshlp.org/" title="冷泉港实验方法">冷泉港实验方案</a></td>
+<tr>
+  <td align="left" bgcolor="#FFFFFF" class="字体"><a href="https://orcid.org" title="ORCID">ORCID</a></td>
+  <td align="left" bgcolor="#FFFFFF" class="字体"><a href="https://www.scoop.it/ title="loop">Scoop.it</a></td>
+  <td align="left" bgcolor="#FFFFFF"><a href="https://feedly.com">Feedly</a></td>
+  <td align="left" bgcolor="#FFFFFF" class="字体"><a href="https://app.readcube.com/library/" title="文献阅读">Readcube</a></td>
+</tr>
+<tr>
+  <td align="left" bgcolor="#FFFFFF" class="字体"><a href="https://publons.com/dashboard/summary/"  target="_new">Publons</a></td>
+  <td align="left" bgcolor="#FFFFFF" class="字体"><a href="https://loop.frontiersin.org" title="Loop">Loop</a></td>
+  <td align="left" bgcolor="#FFFFFF"><a href="https://images.webofknowledge.com/WOKRS519B3/help/zh_CN/WOS/S_abrvjt.html" title="期刊缩写">期刊缩写</a></td>
+  <td align="left" bgcolor="#FFFFFF" class="字体"><a href="http://www.home-for-researchers.com/static/index.html#/" title="科研者之家">科研者之家</a></td>
+</tr>
+<tr>
+	  <td align="left" bgcolor="#FFFFFF" class="字体"><a href="https://www.ginfem.com/">银杏</a></td>
+  <td align="left" bgcolor="#FFFFFF" class="字体">&nbsp;</td>
+  <td align="left" bgcolor="#FFFFFF">&nbsp;</td>
+  <td align="left" bgcolor="#FFFFFF" class="字体">&nbsp;</td>
+</tr>
+	  
+<tr>
+  <td align="left" bgcolor="#FFFFFF" class="标题">Sholarone</td>
+  <td align="left" bgcolor="#FFFFFF" class="字体"><a href="https://mc.manuscriptcentral.com/mpp" title="Scholarone MPP" target="_new">MPP</a></td>
+  <td align="left" bgcolor="#FFFFFF" class="字体"><a href="https://mc.manuscriptcentral.com/plantdisease" title="Scholarone Plantdisease">Plant disease</a></td>
+  <td align="left" bgcolor="#FFFFFF"><a href="https://idp-personal-authenticator.springernature.com/gateway?response_type=code&redirect_uri=https%3A%2F%2Fidp.springernature.com%2Fauthed%2Fpersonal&state=eyJjdHkiOiJKV1QiLCJlbmMiOiJBMTI4R0NNIiwiYWxnIjoiZGlyIn0..mWY9gT3bMEDgvFtx.14EsoHSMiq0G8XnwhNW9wDa-YPeTnnGN1XZB49xvL3uJ81WKnuielAhsDlSvngOjXvv2nIgMp4MbsPegJ8sNmR_NRn_87eJ-RtYZyEYHLlaD0o5RoJmFrTQSE3p9F25rM_KLbG9-BF4H_wl5JOtmR-nohvaaARd3UbRWNJSDwSe0bclGmPz0YlQ1Eh4TpXzyqzV1lFNZXeNiyFiVElAVZTew-_AvVU79EYH9TacMJj9vRwRostSkE4n9sL7k3uO37UQnBjZ2f5-NJnLkC6PE_bGNPLB4bIR4b-9Qw-pvVyI_vgDuugUERHyqPvTTXETuvIL5tdeCAby7IiidAeEPdmf9dsLyeEigyQqweomJFcjy5boc_HUdONJnZufe7mosBW-L-pRVYw_eZdgo_iDlMKsfZ2HgnalNAZkZHvSgWaszAwQVyKBCiq2e-WKHp3vaGpmEWp5MzwCvF7oLVtgZ4EvVusDiVceoHmigfTSa5tpf-BxXgSxaRA6Z0-D6l6zwW21O.DGk7lSd_qB9Ihbb1CdyN4g&context_code=12864&target_redirect_uri=https://submission.springernature.com/submission-details/37f1ae60-c8f3-4b5e-b98e-1a294b7c7be8&context_type=submission">BMC_Genomics</a></td>
+  <td align="left" bgcolor="#FFFFFF" class="字体"><a href="https://www.frontiersin.org/my-frontiers/submissions">Frontiers</a></td>
+</tr>
+<tr>
+  <td align="left" bgcolor="#FFFFFF" class="标题">友情链接</td>
+  <td align="left" bgcolor="#FFFFFF" class="字体"><a href="https://ab.waguge.com/" target="_new">谷歌镜像</a></td>
+  <td align="left" bgcolor="#FFFFFF" class="字体"><a href="http://ac.scmor.com/" target="_new">思谋学术</a></td>
+  <td align="left" bgcolor="#FFFFFF"><a href="http://www.4243.net/" target="_new">大木虫</a>&nbsp;</td>
+  <td align="left" bgcolor="#FFFFFF" class="字体"><a href="http://www.6453.net/" title="龙猫" target="_new">龙猫</a></td>
+</tr>
   </table>
 
   <!-- Search Google -->
 
   <!-- Search Google -->
-  <table width="857" border="0" align="center" cellpadding="1" style="font-family: '楷体'; border: thick dotted #03F; background-color:honeydew; font-size: 18px; font-weight: bold;">
-  <tr></tr>
+  <table width="847" border="1" align="center" cellpadding="5" cellspacing="2" style="font-family: '楷体'; border: thick dotted #03F; background-color:honeydew; font-size: 18px; font-weight: bold;">
   <caption>
   <div align="left" class="张强">常用网站 </div>
   </caption>
   <tr>
-    <td width="134" align="left" bgcolor="honeydew" class="标题">休闲娱乐</td>
-    <td width="170" align="left" bgcolor="honeydew"><a href="http://www.ifeng.com">凤凰网</a></td>
-    <td width="165" align="left" bgcolor="honeydew"><a href="http://www.boc.cn">中国银行</a></td>
-    <td width="177" align="left" bgcolor="honeydew"></td>
-    <td width="177" align="left" bgcolor="honeydew"></td>
-  </tr>
-
-  <tr>
-    <td align="left" bgcolor="honeydew" class="标题">pt</td>
-    <td align="left" bgcolor="honeydew" class="字体"><a href="https://npupt.com/">蒲公英</a></td>
-    <td align="left" bgcolor="honeydew" class="字体"><a href="http://pt.nwsuaf6.edu.cn">麦田</a></td>
-    <td align="left" bgcolor="honeydew" class="字体"><a href="http://bt.neu6.edu.cn">六维空间</a></td>
-    <td align="left" bgcolor="honeydew" class="字体">&nbsp;</td>
-  </tr>
-		
-  <tr>
-    <td align="left" bgcolor="honeydew" class="标题">邮箱</td>
-    <td align="left" bgcolor="honeydew"><a href="http://mail.google.com">Gmail</a></td>
-    <td align="left" bgcolor="honeydew" class="字体"><a href="http://mail.qq.com">QQ邮箱</a></td>
-    <td align="left" bgcolor="honeydew" class="字体"><a href="http://mail.nwafu.edu.cn">西农邮箱</a></td>
-    <td align="left" bgcolor="honeydew" class="字体"></td>
+    <td width="125" rowspan="2" align="left" bgcolor="#FFFFFF" class="标题">基金申请</td>
+    <td width="134" align="left" bgcolor="#FFFFFF"><a href="http://jj.chinapostdoctor.org.cn/V1/Program3/Default.aspx">博后基金</a></td>
+    <td width="144" align="left" bgcolor="#FFFFFF"><a href="http://www.nsfc.gov.cn/">自然基金</a></td>
+    <td width="195" align="left" bgcolor="#FFFFFF"><a href="https://www.chinapostdoctor.org.cn/auth/login.html">博士后网上办公</a></td>
+    <td width="175" align="left" bgcolor="#FFFFFF"><a href="https://isisn.nsfc.gov.cn/egrantweb/main?datetimestamp=1584410820631">国自然个人主页</a></td>
   </tr>
   <tr>
-  <tr>
-    <td align="left" bgcolor="honeydew" class="标题">山东大学</td>
-    <td align="left" bgcolor="honeydew"><a href="http://www.sdu.edu.cn/">主页</a></td>
-    <td align="left" bgcolor="honeydew" class="字体"><a href="http://www.qdxq.sdu.edu.cn/">青岛校区</a></td>
-    <td align="left" bgcolor="honeydew" class="字体"><a href="http://mail.sdu.edu.cn/">山大邮箱</a></td>
-    <td align="left" bgcolor="honeydew" class="字体"></td>
+	  <td width="134" align="left" bgcolor="#FFFFFF"><a href="http://cloud.sdstc.gov.cn/">山东科技云平台</a></td>
+	  <td width="144" align="left" bgcolor="#FFFFFF"><a href="http://210.73.128.81/">江苏省基金</a></td>
+    <td width="195" align="left" bgcolor="#FFFFFF"><a href="http://rc.qingdao.gov.cn/qdzhrcww/pages/rclogin.jsp">青岛智慧人才</a></td>
+    <td width="175" align="left" bgcolor="#FFFFFF">&nbsp;</td>
   </tr>
   <tr>
-    <td align="left" bgcolor="honeydew"><span class="标题">西农相关</span></td>
-    <td align="left" bgcolor="honeydew"><a href="http://www.nwafu.edu.cn">主页</a></td>
-    <td align="left" bgcolor="honeydew" class="字体"><a href="http://www.nwsuaf.edu.cn/xshd/index.htm">学术活动</a></td>
-    <td align="left" bgcolor="honeydew"><a href="http://www.nwsuaf.edu.cn/xywl/">校园网络</a></td>
-    <td align="left" bgcolor="honeydew" class="字体"><a href="http://netecard.nwsuaf.edu.cn:8001/Login/Login?ReturnUrl=%2ftransact%2factuamt_list" title="西农在线缴纳网费，电费及转账">新中新收费平台</a></td>
+    <td align="left" bgcolor="#FFFFFF" class="标题">pt</td>
+    <td align="left" bgcolor="#FFFFFF" class="字体"><a href="https://npupt.com/">蒲公英</a></td>
+    <td align="left" bgcolor="#FFFFFF" class="字体"><a href="http://pt.nwsuaf6.edu.cn">麦田</a></td>
+    <td align="left" bgcolor="#FFFFFF" class="字体"><a href="http://bt.neu6.edu.cn">六维空间</a></td>
+	  <td align="left" bgcolor="#FFFFFF" class="字体"></td>
+	  
   </tr>
   <tr>
-    <td align="left" bgcolor="honeydew">&nbsp;</td>
-    <td align="left" bgcolor="honeydew"><a href="http://www.oomycete.cn">Shan Lab</a></td>
-    <td align="left" bgcolor="honeydew"><a href="http://csbaa.nwsuaf.edu.cn" title="旱区作物逆境生物学国家重点实验室（西北农林科技大学）">国家重点实验室</a></td>
-    <td align="left" bgcolor="honeydew"><a href="http://authserver.nwafu.edu.cn/authserver/login?service=http%3A%2F%2Fyjspy.nwsuaf.edu.cn%2Fsso%2Fnwsuaf%2Fcalogin.jsp">研究生管理系统</a>&nbsp;</td>
-    <td align="left" bgcolor="honeydew"><a href="http://tyjfzfpt.nwsuaf.edu.cn/">统一支付平台</a></td>
+    <td rowspan="3" align="left" bgcolor="#FFFFFF" class="标题">山东大学</td>
+    <td align="left" bgcolor="#FFFFFF"><a href="http://www.sdu.edu.cn/">主页</a></td>
+    <td align="left" bgcolor="#FFFFFF" class="字体"><a href="http://www.qdxq.sdu.edu.cn/">青岛校区</a></td>
+    <td align="left" bgcolor="#FFFFFF" class="字体"><a href="http://www.sdu.edu.cn/yxdl.htm">山大邮箱</a></td>
+    <td align="left" bgcolor="#FFFFFF" class="字体"><a href="http://hr.sdu.edu.cn/hr80/">人力资源管理</a></td>
   </tr>
   <tr>
-    <td align="left" bgcolor="honeydew">&nbsp;</td>
-    <td align="left" bgcolor="honeydew"><a href="http://172.19.28.2/lims/!people/profile/index.367">农学院共享平台</a></td>
-    <td align="left" bgcolor="honeydew"><a href="http://219.245.195.19/lims/login">大型仪器共享平台</a></td>
-    <td align="left" bgcolor="honeydew">&nbsp;</td>
-    <td align="left" bgcolor="honeydew"></td>
+    <td align="left" bgcolor="#FFFFFF"><a href="http://101.76.193.1/srun_portal_pc?ac_id=1&theme=basic&fromPage=success">无线网登录</a></td>
+    <td align="left" bgcolor="#FFFFFF" class="字体"><a href="http://urp.sdu.edu.cn/WFManager/login.jsp">财务系统</a></td>
+    <td align="left" bgcolor="#FFFFFF" class="字体"><a href="http://pass.sdu.edu.cn/cas/login?service=http%3A%2F%2Fservice.sdu.edu.cn%2Ftp_up%2F">信息化公共服务平台</a></td>
+    <td align="left" bgcolor="#FFFFFF" class="字体"><a href="http://www.vpn.qd.sdu.edu.cn/login">VPN访问校内网站</a></td>
   </tr>
- 
+  <tr>
+    <td align="left" bgcolor="#FFFFFF"><a href="https://icloud.qd.sdu.edu.cn:7777">山大云盘</a></td>
+    <td align="left" bgcolor="#FFFFFF" class="字体"><a> </a></td>
+    <td align="left" bgcolor="#FFFFFF" class="字体"><a> </a></td>
+    <td align="left" bgcolor="#FFFFFF" class="字体"><a> </a></td>
+  </tr>
   </table>
 </form>
 
