@@ -69,17 +69,18 @@
                 </header>
                 <ul id="main-menu" class="main-menu">
                     <li>
-                        <a href="#基因组相关" class="smooth">
-                            <i class="linecons-star"></i>
-                            <span class="title">基因组相关</span>
-                        </a>
-                    </li>
-                    <li>
                         <a href="#推荐" class="smooth">
                             <i class="linecons-doc"></i>
                             <span class="title">推荐</span>
                         </a>
                     </li>
+					<li>
+                        <a href="#基因组相关" class="smooth">
+                            <i class="linecons-star"></i>
+                            <span class="title">基因组相关</span>
+                        </a>
+                    </li>
+                    
                     <li>
                         <a>
                             <i class="linecons-lightbulb"></i>
@@ -135,6 +136,11 @@
                                     <span class="title">蛋白互作</span>
                                 </a>
                             </li>
+							<li>
+                                <a href="#蛋白质相关计算" class="smooth">
+                                    <span class="title">蛋白质相关计算</span>
+                                </a>
+                            </li>
                             <!-- li>
                                 <a href="#UI资源" class="smooth">
                                     <span class="title">UI资源</span>
@@ -178,11 +184,7 @@
                                     <span class="title">基因结构绘制</span>
                                 </a>
                             </li>
-                            <li>
-                                <a href="#蛋白质相关计算" class="smooth">
-                                    <span class="title">蛋白质相关计算</span>
-                                </a>
-                            </li>
+                            
                             <li>
                                 <a href="#引物设计与酶切" class="smooth">
                                     <span class="title">引物设计与酶切</span>
@@ -203,11 +205,11 @@
                                     <span class="title">植物突变体</span>
                                 </a>
                             </li>
-                            <!-- li>
-                                <a href="#Chrome插件" class="smooth">
-                                    <span class="title">Chrome插件</span>
+                            <li>
+                                <a href="#期刊review" class="smooth">
+                                    <span class="title">期刊review</span>
                                 </a>
-                            </li -->
+                            </li> 
                             <!-- <li>
                                 <a href="#H5制作" class="smooth">
                                     <span class="title">H5制作</span>
@@ -310,7 +312,143 @@
                 <!-- <a href="https://github.com/WebStackPage/WebStackPage.github.io" target="_blank"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png" alt="Fork me on GitHub"></a> -->
 
             </nav>
-            <!-- 常用推荐 -->
+			<!-- 推荐 -->
+            <h4 class="text-gray"><i class="linecons-tag" style="margin-right: 7px;" id="推荐"></i>推荐</h4>
+            <div class="row">
+                <div class="col-sm-3">
+                    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https://stuch.cn/guge/', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://stuch.cn/guge/">
+                        <div class="xe-comment-entry">
+                            <a class="xe-user-img">
+                                <img data-src="../assets/images/logos/google.png" class="lozad img-circle" width="40">
+                            </a>
+                            <div class="xe-comment">
+                                <a href="#" class="xe-user-name overflowClip_1">
+                                    <strong>谷歌镜像1</strong>
+                                </a>
+                                <p class="overflowClip_2">谷歌镜像</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https://ac.scmor.com/', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://ac.scmor.com/">
+                        <div class="xe-comment-entry">
+                            <a class="xe-user-img">
+                                <img data-src="../assets/images/logos/google.png" class="lozad img-circle" width="40">
+                            </a>
+                            <div class="xe-comment">
+                                <a href="#" class="xe-user-name overflowClip_1">
+                                    <strong>谷歌学术镜像</strong>
+                                </a>
+                                <p class="overflowClip_2">谷歌学术镜像</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https://www.youtube.com/', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://www.youtube.com/">
+                        <div class="xe-comment-entry">
+                            <a class="xe-user-img">
+                                <img data-src="../assets/images/logos/youtube.png" class="lozad img-circle" width="40">
+                            </a>
+                            <span class="label label-info" data-toggle="tooltip" data-placement="left" title="" data-original-title="Hello I am a Tooltip"></span>
+                            <div class="xe-comment">
+                                <a href="#" class="xe-user-name overflowClip_1">
+                                    <strong>Youtube</strong>
+                                </a>
+                                <p class="overflowClip_2">全球最大的学习分享平台</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+				<div class="col-sm-3">
+                    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https://sci.justscience.cn/', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://sci.justscience.cn/">
+                        <div class="xe-comment-entry">
+                            <a class="xe-user-img">
+                                <img data-src="../assets/images/logos/1.DNA.png" class="lozad img-circle" width="40">
+                            </a>
+                            <span class="label label-info" data-toggle="tooltip" data-placement="left" title="" data-original-title="Hello I am a Tooltip"></span>
+                            <div class="xe-comment">
+                                <a href="#" class="xe-user-name overflowClip_1">
+                                    <strong>Justscience</strong>
+                                </a>
+                                <p class="overflowClip_2">维问期刊影响因子查询</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+			<div class="row">
+                <div class="col-sm-3">
+                    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https://www.medsci.cn/sci/index.do;jsessionid=8F4A1CB2202F3FBF77B3B2E6BDC21ED4', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://www.medsci.cn/sci/index.do;jsessionid=8F4A1CB2202F3FBF77B3B2E6BDC21ED4">
+                        <div class="xe-comment-entry">
+                            <a class="xe-user-img">
+                                <img data-src="../assets/images/logos/1.DNA.png" class="lozad img-circle" width="40">
+                            </a>
+                            <div class="xe-comment">
+                                <a href="#" class="xe-user-name overflowClip_1">
+                                    <strong>MedSci</strong>
+                                </a>
+                                <p class="overflowClip_2">MedSci 2023年期刊智能查询系统
+</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https://orcid.org/', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://orcid.org/">
+                        <div class="xe-comment-entry">
+                            <a class="xe-user-img">
+                                <img data-src="../assets/images/logos/1.DNA.png" class="lozad img-circle" width="40">
+                            </a>
+                            <div class="xe-comment">
+                                <a href="#" class="xe-user-name overflowClip_1">
+                                    <strong>Orcid</strong>
+                                </a>
+                                <p class="overflowClip_2">Orcid学术档案</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https://loop.frontiersin.org/', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://loop.frontiersin.org/">
+                        <div class="xe-comment-entry">
+                            <a class="xe-user-img">
+                                <img data-src="../assets/images/logos/1.DNA.png" class="lozad img-circle" width="40">
+                            </a>
+                            <span class="label label-info" data-toggle="tooltip" data-placement="left" title="" data-original-title="Hello I am a Tooltip"></span>
+                            <div class="xe-comment">
+                                <a href="#" class="xe-user-name overflowClip_1">
+                                    <strong>Loop</strong>
+                                </a>
+                                <p class="overflowClip_2">Frontiers 学术档案</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+				<div class="col-sm-3">
+                    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https://images.webofknowledge.com/WOKRS519B3/help/zh_CN/WOS/S_abrvjt.html', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://images.webofknowledge.com/WOKRS519B3/help/zh_CN/WOS/S_abrvjt.html">
+                        <div class="xe-comment-entry">
+                            <a class="xe-user-img">
+                                <img data-src="../assets/images/logos/1.DNA.png" class="lozad img-circle" width="40">
+                            </a>
+                            <span class="label label-info" data-toggle="tooltip" data-placement="left" title="" data-original-title="Hello I am a Tooltip"></span>
+                            <div class="xe-comment">
+                                <a href="#" class="xe-user-name overflowClip_1">
+                                    <strong>期刊缩写查询</strong>
+                                </a>
+                                <p class="overflowClip_2">此列表显示作为被引著作的期刊名称缩写</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <br />
+            <!--END 推荐 -->    
+			
+            <!-- 基因组相关 -->
 
             <h4 class="text-gray"><i class="linecons-tag" style="margin-right: 7px;" id="基因组相关"></i>基因组相关</h4>
             <div class="row">
@@ -461,60 +599,8 @@
 
             </div>
             <br />
-            <!-- END 常用推荐 -->
-            <!-- 推荐 -->
-            <h4 class="text-gray"><i class="linecons-tag" style="margin-right: 7px;" id="推荐"></i>推荐</h4>
-            <div class="row">
-                <div class="col-sm-3">
-                    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https://stuch.cn/guge/', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://stuch.cn/guge/">
-                        <div class="xe-comment-entry">
-                            <a class="xe-user-img">
-                                <img data-src="../assets/images/logos/google.png" class="lozad img-circle" width="40">
-                            </a>
-                            <div class="xe-comment">
-                                <a href="#" class="xe-user-name overflowClip_1">
-                                    <strong>谷歌镜像1</strong>
-                                </a>
-                                <p class="overflowClip_2">谷歌镜像</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-3">
-                    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https://ac.scmor.com/', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://ac.scmor.com/">
-                        <div class="xe-comment-entry">
-                            <a class="xe-user-img">
-                                <img data-src="../assets/images/logos/google.png" class="lozad img-circle" width="40">
-                            </a>
-                            <div class="xe-comment">
-                                <a href="#" class="xe-user-name overflowClip_1">
-                                    <strong>谷歌学术镜像</strong>
-                                </a>
-                                <p class="overflowClip_2">谷歌学术镜像</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-3">
-                    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https://www.youtube.com/', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://www.youtube.com/">
-                        <div class="xe-comment-entry">
-                            <a class="xe-user-img">
-                                <img data-src="../assets/images/logos/youtube.png" class="lozad img-circle" width="40">
-                            </a>
-                            <span class="label label-info" data-toggle="tooltip" data-placement="left" title="" data-original-title="Hello I am a Tooltip"></span>
-                            <div class="xe-comment">
-                                <a href="#" class="xe-user-name overflowClip_1">
-                                    <strong>Youtube</strong>
-                                </a>
-                                <p class="overflowClip_2">全球最大的学习分享平台</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-            <br />
-            <!--END 推荐 -->            
+            <!-- END 基因组相关 -->
+                 
             <!-- Promoter分析 -->
             <h4 class="text-gray"><i class="linecons-tag" style="margin-right: 7px;" id="Promoter分析"></i>Promoter分析</h4>
             <div class="row">
@@ -1261,44 +1347,7 @@
             </div>
             <br />
             <!--END 蛋白互作 -->
-            <!-- 基因结构绘制 -->
-            <h4 class="text-gray"><i class="linecons-tag" style="margin-right: 7px;" id="基因结构绘制"></i>基因结构绘制</h4>
-            <div class="row">
-                <div class="col-sm-3">
-                    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('http://gsds.gao-lab.org/', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="http://gsds.gao-lab.org/">
-                        <div class="xe-comment-entry">
-                            <a class="xe-user-img">
-                                <img data-src="../assets/images/logos/1.DNA.png" class="lozad img-circle" width="40">
-                            </a>
-                            <div class="xe-comment">
-                                <a href="#" class="xe-user-name overflowClip_1">
-                                    <strong>GSDS 2.0</strong>
-                                </a>
-                                <p class="overflowClip_2">Gene Structure Display Server</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-3">
-                    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('http://ibs.biocuckoo.org/download.php', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="http://ibs.biocuckoo.org/download.php">
-                        <div class="xe-comment-entry">
-                            <a class="xe-user-img">
-                                <img data-src="../assets/images/logos/1.DNA.png" class="lozad img-circle" width="40">
-                            </a>
-                            <div class="xe-comment">
-                                <a href="#" class="xe-user-name overflowClip_1">
-                                    <strong>IBS</strong>
-                                </a>
-                                <p class="overflowClip_2">Illustrator for Biological Sequence.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-            <br />
-            <!--END 基因结构绘制 -->
-            <!-- 蛋白质相关计算 -->
+			<!-- 蛋白质相关计算 -->
             <h4 class="text-gray"><i class="linecons-tag" style="margin-right: 7px;" id="蛋白质相关计算"></i>蛋白质相关计算</h4>
             <div class="row">
                 <div class="col-sm-3">
@@ -1352,6 +1401,44 @@
          
             <br />
             <!--END 蛋白质相关计算 -->
+            <!-- 基因结构绘制 -->
+            <h4 class="text-gray"><i class="linecons-tag" style="margin-right: 7px;" id="基因结构绘制"></i>基因结构绘制</h4>
+            <div class="row">
+                <div class="col-sm-3">
+                    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('http://gsds.gao-lab.org/', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="http://gsds.gao-lab.org/">
+                        <div class="xe-comment-entry">
+                            <a class="xe-user-img">
+                                <img data-src="../assets/images/logos/1.DNA.png" class="lozad img-circle" width="40">
+                            </a>
+                            <div class="xe-comment">
+                                <a href="#" class="xe-user-name overflowClip_1">
+                                    <strong>GSDS 2.0</strong>
+                                </a>
+                                <p class="overflowClip_2">Gene Structure Display Server</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('http://ibs.biocuckoo.org/download.php', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="http://ibs.biocuckoo.org/download.php">
+                        <div class="xe-comment-entry">
+                            <a class="xe-user-img">
+                                <img data-src="../assets/images/logos/1.DNA.png" class="lozad img-circle" width="40">
+                            </a>
+                            <div class="xe-comment">
+                                <a href="#" class="xe-user-name overflowClip_1">
+                                    <strong>IBS</strong>
+                                </a>
+                                <p class="overflowClip_2">Illustrator for Biological Sequence.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <br />
+            <!--END 基因结构绘制 -->
+
             <!-- 引物设计及酶切 -->
             <h4 class="text-gray"><i class="linecons-tag" style="margin-right: 7px;" id="引物设计及酶切"></i>引物设计及酶切</h4>
             <div class="row">
@@ -1661,6 +1748,104 @@
             </div> -->
             <br />
             <!--END 植物突变体 -->
+            <!-- 期刊review -->
+            <h4 class="text-gray"><i class="linecons-tag" style="margin-right: 7px;" id="期刊review"></i>期刊review</h4>
+            <div class="row">
+                <div class="col-sm-3">
+                    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https://mc.manuscriptcentral.com/mpp', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://mc.manuscriptcentral.com/mpp">
+                        <div class="xe-comment-entry">
+                            <a class="xe-user-img">
+                                <img data-src="../assets/images/logos/1.DNA.png" class="lozad img-circle" width="40">
+                            </a>
+                            <div class="xe-comment">
+                                <a href="#" class="xe-user-name overflowClip_1">
+                                    <strong>MPP</strong>
+                                </a>
+                                <p class="overflowClip_2">Molecular plant pathology</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https://mc.manuscriptcentral.com/plantdisease', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://mc.manuscriptcentral.com/plantdisease">
+                        <div class="xe-comment-entry">
+                            <a class="xe-user-img">
+                                <img data-src="../assets/images/logos/1.DNA.png" class="lozad img-circle" width="40">
+                            </a>
+                            <div class="xe-comment">
+                                <a href="#" class="xe-user-name overflowClip_1">
+                                    <strong>Plant disease</strong>
+                                </a>
+                                <p class="overflowClip_2">Plant disease</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https://idp-personal-authenticator.springernature.com/gateway?response_type=code&redirect_uri=https%3A%2F%2Fidp.springernature.com%2Fauthed%2Fpersonal&state=eyJjdHkiOiJKV1QiLCJlbmMiOiJBMTI4R0NNIiwiYWxnIjoiZGlyIn0..mWY9gT3bMEDgvFtx.14EsoHSMiq0G8XnwhNW9wDa-YPeTnnGN1XZB49xvL3uJ81WKnuielAhsDlSvngOjXvv2nIgMp4MbsPegJ8sNmR_NRn_87eJ-RtYZyEYHLlaD0o5RoJmFrTQSE3p9F25rM_KLbG9-BF4H_wl5JOtmR-nohvaaARd3UbRWNJSDwSe0bclGmPz0YlQ1Eh4TpXzyqzV1lFNZXeNiyFiVElAVZTew-_AvVU79EYH9TacMJj9vRwRostSkE4n9sL7k3uO37UQnBjZ2f5-NJnLkC6PE_bGNPLB4bIR4b-9Qw-pvVyI_vgDuugUERHyqPvTTXETuvIL5tdeCAby7IiidAeEPdmf9dsLyeEigyQqweomJFcjy5boc_HUdONJnZufe7mosBW-L-pRVYw_eZdgo_iDlMKsfZ2HgnalNAZkZHvSgWaszAwQVyKBCiq2e-WKHp3vaGpmEWp5MzwCvF7oLVtgZ4EvVusDiVceoHmigfTSa5tpf-BxXgSxaRA6Z0-D6l6zwW21O.DGk7lSd_qB9Ihbb1CdyN4g&context_code=12864&target_redirect_uri=https://submission.springernature.com/submission-details/37f1ae60-c8f3-4b5e-b98e-1a294b7c7be8&context_type=submission', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://idp-personal-authenticator.springernature.com/gateway?response_type=code&redirect_uri=https%3A%2F%2Fidp.springernature.com%2Fauthed%2Fpersonal&state=eyJjdHkiOiJKV1QiLCJlbmMiOiJBMTI4R0NNIiwiYWxnIjoiZGlyIn0..mWY9gT3bMEDgvFtx.14EsoHSMiq0G8XnwhNW9wDa-YPeTnnGN1XZB49xvL3uJ81WKnuielAhsDlSvngOjXvv2nIgMp4MbsPegJ8sNmR_NRn_87eJ-RtYZyEYHLlaD0o5RoJmFrTQSE3p9F25rM_KLbG9-BF4H_wl5JOtmR-nohvaaARd3UbRWNJSDwSe0bclGmPz0YlQ1Eh4TpXzyqzV1lFNZXeNiyFiVElAVZTew-_AvVU79EYH9TacMJj9vRwRostSkE4n9sL7k3uO37UQnBjZ2f5-NJnLkC6PE_bGNPLB4bIR4b-9Qw-pvVyI_vgDuugUERHyqPvTTXETuvIL5tdeCAby7IiidAeEPdmf9dsLyeEigyQqweomJFcjy5boc_HUdONJnZufe7mosBW-L-pRVYw_eZdgo_iDlMKsfZ2HgnalNAZkZHvSgWaszAwQVyKBCiq2e-WKHp3vaGpmEWp5MzwCvF7oLVtgZ4EvVusDiVceoHmigfTSa5tpf-BxXgSxaRA6Z0-D6l6zwW21O.DGk7lSd_qB9Ihbb1CdyN4g&context_code=12864&target_redirect_uri=https://submission.springernature.com/submission-details/37f1ae60-c8f3-4b5e-b98e-1a294b7c7be8&context_type=submission">
+                        <div class="xe-comment-entry">
+                            <a class="xe-user-img">
+                                <img data-src="../assets/images/logos/1.DNA.png" class="lozad img-circle" width="40">
+                            </a>
+                            <div class="xe-comment">
+                                <a href="#" class="xe-user-name overflowClip_1">
+                                    <strong>BMC genomics</strong>
+                                </a>
+                                <p class="overflowClip_2">BMC genomics</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https://www.frontiersin.org/people/login?returnUrl=http%3a%2f%2fwww.frontiersin.org%2fmy-frontiers%2fsubmissions', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://www.frontiersin.org/people/login?returnUrl=http%3a%2f%2fwww.frontiersin.org%2fmy-frontiers%2fsubmissions">
+                        <div class="xe-comment-entry">
+                            <a class="xe-user-img">
+                                <img data-src="../assets/images/logos/1.Maize.png" class="lozad img-circle" width="40">
+                            </a>
+                            <div class="xe-comment">
+                                <a href="#" class="xe-user-name overflowClip_1">
+                                    <strong>Frontiers</strong>
+                                </a>
+                                <p class="overflowClip_2">Frontiers</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- <div class="row">
+                <div class="col-sm-3">
+                    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('http://www.tretars.com/ppt-templates', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="http://www.tretars.com/ppt-templates">
+                        <div class="xe-comment-entry">
+                            <a class="xe-user-img">
+                                <img data-src="../assets/images/logos/tretars.png" class="lozad img-circle" width="40">
+                            </a>
+                            <div class="xe-comment">
+                                <a href="#" class="xe-user-name overflowClip_1">
+                                    <strong>tretars</strong>
+                                </a>
+                                <p class="overflowClip_2">The best free Mockups from the Web</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('http://ppt.500d.me/', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="http://ppt.500d.me/">
+                        <div class="xe-comment-entry">
+                            <a class="xe-user-img">
+                                <img data-src="../assets/images/logos/500d.png" class="lozad img-circle" width="40">
+                            </a>
+                            <div class="xe-comment">
+                                <a href="#" class="xe-user-name overflowClip_1">
+                                    <strong>5百丁</strong>
+                                </a>
+                                <p class="overflowClip_2">中国领先的PPT模板共享平台</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div> -->
+            <br />
+            <!--END 期刊review -->
             <!-- 山东大学 -->
             <h4 class="text-gray"><i class="linecons-tag" style="margin-right: 7px;" id="山东大学"></i>山东大学</h4>
             <div class="row">
